@@ -1,0 +1,123 @@
+{
+  "page_type": "Product Page",
+  "product": {
+    "name": "GlowBoost Vitamin C Serum",
+    "type": "skincare",
+    "concentration": "10% Vitamin C"
+  },
+  "overview": {
+    "title": "GlowBoost Vitamin C Serum - Premium Vitamin C Serum",
+    "description": "GlowBoost Vitamin C Serum is a high-potency skincare serum designed for Oily, Combination skin types. With 10% Vitamin C Vitamin C concentration, it delivers professional-grade results for brightening and anti-aging.",
+    "skin_types": [
+      "Oily",
+      "Combination"
+    ]
+  },
+  "benefits": {
+    "primary_benefits": [
+      "Brightening",
+      "Fades dark spots"
+    ],
+    "detailed_benefits": [
+      {
+        "benefit": "Brightening",
+        "description": "Makes skin appear brighter and more radiant"
+      },
+      {
+        "benefit": "Fades dark spots",
+        "description": "Reduces the appearance of hyperpigmentation and dark spots"
+      }
+    ],
+    "concentration": "10% Vitamin C",
+    "suitable_for": [
+      "Oily",
+      "Combination"
+    ],
+    "key_active": "Vitamin C"
+  },
+  "ingredients": {
+    "key_ingredients": [
+      "Vitamin C",
+      "Hyaluronic Acid"
+    ],
+    "detailed_ingredients": [
+      {
+        "name": "Vitamin C",
+        "type": "Antioxidant",
+        "concentration": "10%",
+        "function": "Brightening, anti-aging, antioxidant protection"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "type": "Humectant",
+        "concentration": "Variable",
+        "function": "Hydration, plumping, moisture retention"
+      }
+    ],
+    "total_ingredients": 2,
+    "main_active": "Vitamin C",
+    "formulation_type": "Lightweight serum"
+  },
+  "usage": {
+    "application_instructions": "Apply 2-3 drops in the morning before sunscreen",
+    "steps": [
+      "Apply 2-3 drops in the morning before sunscreen"
+    ],
+    "frequency": "Once daily in morning routine",
+    "precautions": [
+      "Apply to clean, dry skin",
+      "Follow with sunscreen",
+      "Patch test before full application",
+      "Avoid contact with eyes"
+    ],
+    "best_practices": [
+      "Use 2-3 drops only",
+      "Apply before heavier serums",
+      "Store away from direct sunlight",
+      "Discard 6 months after opening"
+    ]
+  },
+  "safety": {
+    "reported_side_effects": [
+      "Mild tingling for sensitive skin"
+    ],
+    "severity": "Mild",
+    "who_can_use": [
+      "Oily",
+      "Combination"
+    ],
+    "contraindications": [
+      "Not recommended for extremely sensitive skin",
+      "Avoid if allergic to Vitamin C",
+      "Discontinue if severe irritation occurs"
+    ],
+    "allergy_warning": "Contains Vitamin C derivative and Hyaluronic Acid",
+    "pregnancy_safety": "Consult dermatologist before use during pregnancy",
+    "discontinue_if": [
+      "Severe burning or redness occurs",
+      "Allergic reaction develops",
+      "Skin barrier damage appears"
+    ]
+  },
+  "pricing": {
+    "mrp": "699",
+    "price_value": "699",
+    "currency": "INR",
+    "price_tier": "Mid-Range",
+    "estimated_volume": "30ml",
+    "price_per_ml": "23.30",
+    "value_proposition": "Affordable luxury skincare",
+    "comparison_note": "Competitive pricing for Vitamin C serum category"
+  },
+  "metadata": {
+    "page_generated": true,
+    "generation_method": "Agentic Assembly",
+    "blocks_used": [
+      "BenefitsBlock",
+      "IngredientsBlock",
+      "UsageBlock",
+      "SafetyBlock",
+      "PricingBlock"
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "page_type": "FAQ Page",
+  "product_name": "GlowBoost Vitamin C Serum",
+  "total_faqs": 5,
+  "categories": [
+    "Ingredients",
+    "Safety",
+    "Usage",
+    "Purchase",
+    "Comparison",
+    "Informational"
+  ],
+  "faqs": [
+    {
+      "id": "faq_1",
+      "question": "What is GlowBoost Vitamin C Serum?",
+      "answer": "GlowBoost Vitamin C Serum is a premium skincare product with Brightening, Fades dark spots benefits",
+      "category": "Informational",
+      "helpful": false,
+      "views": 0
+    },
+    {
+      "id": "faq_2",
+      "question": "What are the main benefits of GlowBoost Vitamin C Serum?",
+      "answer": "The main benefits are Brightening and Fades dark spots",
+      "category": "Informational",
+      "helpful": false,
+      "views": 0
+    },
+    {
+      "id": "faq_3",
+      "question": "Is GlowBoost Vitamin C Serum effective for skincare?",
+      "answer": "The main benefits are Brightening and Fades dark spots",
+      "category": "Informational",
+      "helpful": false,
+      "views": 0
+    },
+    {
+      "id": "faq_4",
+      "question": "How long does GlowBoost Vitamin C Serum take to show results?",
+      "answer": "The main benefits are Brightening and Fades dark spots",
+      "category": "Informational",
+      "helpful": false,
+      "views": 0
+    },
+    {
+      "id": "faq_5",
+      "question": "Is GlowBoost Vitamin C Serum safe to use?",
+      "answer": "Usage instructions: Apply 2-3 drops in the morning before sunscreen",
+      "category": "Safety",
+      "helpful": false,
+      "views": 0
+    }
+  ],
+  "metadata": {
+    "page_generated": true,
+    "generation_method": "Agentic Assembly",
+    "blocks_used": [
+      "AnswerBlock"
+    ],
+    "questions_total": 20,
+    "faqs_selected": 5
+  }
+}

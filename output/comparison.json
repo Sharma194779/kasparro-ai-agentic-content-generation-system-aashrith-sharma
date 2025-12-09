@@ -1,0 +1,98 @@
+{
+  "page_type": "Comparison Page",
+  "comparison_title": "GlowBoost Vitamin C Serum vs LuminaGlow Vitamin C+ Complex",
+  "timestamp": "2024-12-10",
+  "products": {
+    "product_a": {
+      "name": "GlowBoost Vitamin C Serum",
+      "concentration": "10% Vitamin C",
+      "skin_type": [
+        "Oily",
+        "Combination"
+      ],
+      "price": "699",
+      "benefits": [
+        "Brightening",
+        "Fades dark spots"
+      ],
+      "ingredients": [
+        "Vitamin C",
+        "Hyaluronic Acid"
+      ],
+      "side_effects": "Mild tingling for sensitive skin"
+    },
+    "product_b": {
+      "name": "LuminaGlow Vitamin C+ Complex",
+      "concentration": "12% Vitamin C",
+      "skin_type": [
+        "Normal",
+        "Oily"
+      ],
+      "price": "899",
+      "benefits": [
+        "Brightening",
+        "Anti-aging",
+        "Hydrating"
+      ],
+      "ingredients": [
+        "Vitamin C",
+        "Ferulic Acid",
+        "Glycerin"
+      ],
+      "side_effects": "Slight redness in first week"
+    }
+  },
+  "comparison_analysis": {
+    "ingredient_overlap": 1,
+    "total_unique_ingredients": 4,
+    "price_difference": "200.0",
+    "more_affordable": "GlowBoost Vitamin C Serum",
+    "recommendation": "GlowBoost Vitamin C Serum is suitable for Oily, Combination skin types"
+  },
+  "detailed_comparison": {
+    "product_a": {
+      "name": "GlowBoost Vitamin C Serum",
+      "concentration": "10% Vitamin C",
+      "key_ingredients": [
+        "Vitamin C",
+        "Hyaluronic Acid"
+      ],
+      "benefits": [
+        "Brightening",
+        "Fades dark spots"
+      ],
+      "price": "699",
+      "side_effects": "Mild tingling for sensitive skin"
+    },
+    "product_b": {
+      "name": "LuminaGlow Vitamin C+ Complex",
+      "concentration": "12% Vitamin C",
+      "key_ingredients": [
+        "Vitamin C",
+        "Ferulic Acid",
+        "Glycerin"
+      ],
+      "benefits": [
+        "Brightening",
+        "Anti-aging",
+        "Hydrating"
+      ],
+      "price": "899",
+      "side_effects": "Slight redness in first week"
+    },
+    "comparison_metrics": {
+      "ingredient_overlap": 1,
+      "total_unique_ingredients": 4,
+      "price_difference": 200.0,
+      "more_affordable": "GlowBoost Vitamin C Serum"
+    },
+    "recommendation": "GlowBoost Vitamin C Serum is suitable for Oily, Combination skin types"
+  },
+  "metadata": {
+    "page_generated": true,
+    "generation_method": "Agentic Assembly",
+    "blocks_used": [
+      "ComparisonBlock"
+    ]
+  }
+}

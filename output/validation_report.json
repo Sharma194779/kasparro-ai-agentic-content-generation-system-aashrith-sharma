@@ -1,0 +1,26 @@
+{
+  "validation_timestamp": "2024-12-10",
+  "total_pages": 3,
+  "pages": {
+    "faq_page": {
+      "page_name": "FAQ Page",
+      "is_valid": true,
+      "errors": [],
+      "faq_count": 5
+    },
+    "product_page": {
+      "page_name": "Product Page",
+      "is_valid": true,
+      "errors": [],
+      "sections_present": 8
+    },
+    "comparison_page": {
+      "page_name": "Comparison Page",
+      "is_valid": true,
+      "errors": [],
+      "products_compared": 2
+    }
+  },
+  "overall_status": "VALID",
+  "total_errors": 0
+}
