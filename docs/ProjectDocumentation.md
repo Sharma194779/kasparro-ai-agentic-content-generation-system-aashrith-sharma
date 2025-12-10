@@ -4,7 +4,7 @@ AGENTIC CONTENT GENERATION SYSTEM
 
 The assignment asks us to build a modular agentic system that takes a small product dataset and automatically generates structured JSON pages. The system must show understanding of multi-agent architecture, automation workflows, reusable logic, and template-based generation.
 
-We were given only one product: GlowBoost Vitamin C Serum with 8 attributes (name, concentration, skin type, ingredients, benefits, usage, side effects, price). We cannot add new information; we can only use what is provided.
+I were given only one product: GlowBoost Vitamin C Serum with 8 attributes (name, concentration, skin type, ingredients, benefits, usage, side effects, price). I cannot add new information; I can only use what is provided.
 
 The system must produce three pages:
 1 FAQ page with at least 5 questions and answers
@@ -17,7 +17,7 @@ All output must be valid JSON files. The entire pipeline must run through agents
 
 2. SOLUTION OVERVIEW
 
-We built a system with six independent agents that work together in stages. Each agent has one clear job and does not share hidden state with others.
+I built a system with six independent agents that work together in stages. Each agent has one clear job and does not share hidden state with others.
 
 The pipeline flows like this:
 
@@ -40,7 +40,7 @@ This design allows us to:
 
 3. SCOPES & ASSUMPTIONS
 
- Scope (What we did)
+ Scope (What I did)
 
  Single product (GlowBoost) plus one fictional competitor (LuminaGlow)
  Three page types: FAQ, Product Description, Comparison
@@ -49,7 +49,7 @@ This design allows us to:
  Local execution (no database, no cloud services)
  Deterministic generation (same input always produces same output)
 
- Assumptions (What we believed to be true)
+ Assumptions (What I believed to be true)
 
  Product data is well-formed with all required fields
  Questions should be generated only from existing product attributes, not invented facts
@@ -77,7 +77,7 @@ Each layer is independent and can be modified without affecting the others.
 
  4.2 Data Model
 
-We created a ProductModel class that represents a product with these fields:
+I created a ProductModel class that represents a product with these fields:
 
 - name: product title
 - concentration: active ingredient strength
@@ -93,7 +93,7 @@ The model has a validate() method that checks required fields are present. If da
 
  4.3 Content Blocks (Reusable Logic)
 
-We created seven pure functions that transform product data into content snippets. Each block takes a ProductModel as input and returns a dictionary with structured information.
+I created seven pure functions that transform product data into content snippets. Each block takes a ProductModel as input and returns a dictionary with structured information.
 
 1. BenefitsBlock - creates a list of benefits with descriptions
 2. UsageBlock - converts usage instructions into steps and best practices
@@ -111,7 +111,7 @@ Testable (can run independently)
 
  4.4 Agents (Task-Oriented Workers)
 
-We created six agents. Each agent has one job and clear input/output contracts.
+I created six agents. Each agent has one job and clear input/output contracts.
 
 DataParserAgent
  Job: Parse raw data and create ProductModel instances
@@ -184,7 +184,7 @@ Stage 4: ValidationAgent runs (depends on Stage 3)
 Stage 5: Output
  All pages saved as JSON files
 
-This parallel execution where possible makes the system faster and shows we understand DAG (directed acyclic graph) concepts.
+This parallel execution where possible makes the system faster and shows I understand DAG (directed acyclic graph) concepts.
 
  4.6 Data Flow Diagram
 
@@ -338,11 +338,11 @@ comparison_analysis: {
 
 **Decision 2: Separate Agents with Single Responsibility**
 - Reason: Makes each agent easy to test and modify independently
-- Benefit: If we need to change how questions are generated, we only edit QuestionGeneratorAgent; other agents are not affected
+- Benefit: If I need to change how questions are generated, I only edit QuestionGeneratorAgent; other agents are not affected
 
 **Decision 3: Reusable Content Blocks**
 - Reason: Avoids repeating the same logic in multiple places
-- Benefit: If we want to add a new page type, we can reuse existing blocks instead of writing new code
+- Benefit: If I want to add a new page type, I can reuse existing blocks instead of writing new code
 
 **Decision 4: Parallel Execution**
 - Reason: QuestionGenerator, ProductPageAssembler, and ComparisonAssembler do not depend on each other
@@ -445,7 +445,7 @@ All functions have type hints showing what they accept and return. This makes th
 
 How I Verified
 
-We ran the full pipeline end-to-end and confirmed:
+I ran the full pipeline end-to-end and confirmed:
 - Console output shows all 7 stages completed
 - No errors in any stage
 - All validation checks passed
