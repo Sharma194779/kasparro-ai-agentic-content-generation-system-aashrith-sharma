@@ -4,7 +4,7 @@ AGENTIC CONTENT GENERATION SYSTEM
 
 The assignment asks us to build a modular agentic system that takes a small product dataset and automatically generates structured JSON pages. The system must show understanding of multi-agent architecture, automation workflows, reusable logic, and template-based generation.
 
-I were given only one product: GlowBoost Vitamin C Serum with 8 attributes (name, concentration, skin type, ingredients, benefits, usage, side effects, price). I cannot add new information; I can only use what is provided.
+I was given only one product: GlowBoost Vitamin C Serum with 8 attributes (name, concentration, skin type, ingredients, benefits, usage, side effects, price). I cannot add new information; I can only use what is provided.
 
 The system must produce three pages:
 1 FAQ page with at least 5 questions and answers
